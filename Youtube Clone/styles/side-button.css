@@ -1,0 +1,31 @@
+.side-button{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 80px;
+  left: 0px;
+  background-color: white;
+  width: 87px;
+  z-index: 200;
+}
+
+.sidebar-button img{
+  width: 25px;
+  margin: 3px;
+}
+
+.sidebar-button{
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sidebar-button:hover{
+  background-color: rgb(240, 230, 230);
+}
+.sidebar-button div{
+  font-family: roboto, arial;
+  font-size: 13px;
+}
